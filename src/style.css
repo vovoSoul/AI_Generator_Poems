@@ -71,4 +71,5 @@ a {
   margin-bottom: 10px;
   border-left: 3px solid saddlebrown;
   border-right: 3px solid saddlebrown;
+  animation: blink 1s;
 }
