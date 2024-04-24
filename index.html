@@ -4,38 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI poem generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <h1>Poems</h1>
-    <h3>
-      "Poetry is the spontaneous overflow of powerful feelings: it takes its
-      origin from emotion recollected in tranquility."
-      <div>- William Wordsworth</div>
-    </h3>
-    <section>
-      <form action="search" id="search" class="search">
-        <input
-          type="text"
-          placeholder="enter a topic of your interest..."
-          autofocus
-          required
-          autocomplete="off"
-          id="box"
-        />
-        <input type="submit" id="submit" />
-      </form>
-    </section>
-    <footer>
-      this project was coded by
-      <a href="https://github.com/vovoSoul" target="_blank">Yvonne N</a>
-      : Open-sourced on
-      <a href="https://github.com/vovoSoul/AI_Generator_Poems" target="_blank"
-        >Github</a
-      >
-      and is hosted on
-      <a href="https://ai-poems-vovosoul.netlify.app/">Netlify.</a>
-    </footer>
+    <main>
+      <h2>Poems</h2>
+      <h4>
+        An intricate dance of words, a whishpered symphont, a love affair woven
+        in the delicate tapestry of language
+      </h4>
+      <section>
+        <form action="search" id="search" class="search">
+          <input
+            type="text"
+            placeholder="enter a topic of your interest..."
+            autofocus
+            required
+            autocomplete="off"
+            id="box"
+          />
+          <input type="submit" id="submit" class="submit" />
+        </form>
+      </section>
+      <h4>
+        "Poetry is the spontaneous overflow of powerful feelings: it takes its
+        origin from emotion recollected in tranquility."
+        <div>- William Wordsworth</div>
+      </h4>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/vovoSoul" target="_blank">Yvonne N</a>
+        : Open-sourced on
+        <a href="https://github.com/vovoSoul/AI_Generator_Poems" target="_blank"
+          >Github</a
+        >
+        and is hosted on
+        <a href="https://ai-poems-vovosoul.netlify.app/">Netlify.</a>
+      </footer>
+    </main>
     <script src="src/index.js"></script>
   </body>
 </html>

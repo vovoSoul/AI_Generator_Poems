@@ -1,3 +1,63 @@
 body {
-  background-color: tan;
+  background-color: #fef6de;
+}
+
+main {
+  max-width: 600px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  border: 1px solid brown;
+  border-radius: 5px;
+  padding: 20px;
+  padding-top: 5px;
+  margin-top: 50px;
+  background: radial-gradient(
+    859px at 10% 20%,
+    rgb(245, 220, 154) 0%,
+    rgb(164, 78, 51) 90%
+  );
+  box-shadow: 2px 2px 2px #432005;
+}
+
+#box {
+  width: 60%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.submit {
+  padding: 8px;
+  font-size: 15px;
+  color: brown;
+  background-color: #fef6de;
+  border: 1px solid #432005;
+  border-radius: 2px;
+}
+
+footer {
+  border-top: 1px dashed brown;
+  padding-top: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+section {
+  padding-bottom: 20px;
+}
+
+h4 {
+  font-family: "Amita", serif;
+  font-style: normal;
+  padding-top: none;
+}
+
+h2 {
+  font-family: "Amita", serif;
+  font-size: 50px;
+}
+
+a {
+  color: brown;
 }
