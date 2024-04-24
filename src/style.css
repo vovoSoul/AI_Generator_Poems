@@ -61,3 +61,14 @@ h2 {
 a {
   color: brown;
 }
+
+#newpoem {
+  background-color: antiquewhite;
+  width: 400px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  border-left: 3px solid saddlebrown;
+  border-right: 3px solid saddlebrown;
+}
